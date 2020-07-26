@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".SlapCowAss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/slap_relative_layout_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/back_btn"
+                    android:onClick="backBtnClickSlap" />
+
+                <ImageView
+                    android:id="@+id/index_icon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/index_icon" />
+
+                <TextView
+                    android:id="@+id/index_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/index_icon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Slap Cow Ass"
+                    android:textColor="#272727"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/index_text_bd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/index_text"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="গরুর পাছায় থাপ্পর দিন আর দেখুন গরু সতেজ কি না"
+                    android:textColor="#272727"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <!-- Cow Slap Section -->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/slap_relative_layout_1"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/slap_border">
+
+                <!-- Row 1 -->
+                <RelativeLayout
+                    android:id="@+id/row_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:padding="6dp">
+
+                    <RelativeLayout
+                        android:id="@+id/row_1_rl_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cow_border"
+                        android:padding="4dp">
+
+                        <ImageButton
+                            android:id="@+id/cow_1"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/c1"
+                            android:onClick="cow1BtnClick" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/row_1_rl_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cow_border"
+                        android:padding="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/row_1_rl_1">
+
+                        <ImageButton
+                            android:id="@+id/cow_2"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/c2"
+                            android:onClick="cow2BtnClick" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/row_1_rl_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cow_border"
+                        android:padding="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/row_1_rl_2">
+
+                        <ImageButton
+                            android:id="@+id/cow_3"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/c2"
+                            android:onClick="cow3BtnClick" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!-- Row 2 -->
+                <RelativeLayout
+                    android:id="@+id/row_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_below="@+id/row_1"
+                    android:padding="6dp"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/row_2_rl_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cow_border"
+                        android:padding="4dp">
+
+                        <ImageButton
+                            android:id="@+id/cow_4"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/c4"
+                            android:onClick="cow4BtnClick" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/row_2_rl_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cow_border"
+                        android:padding="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/row_2_rl_1">
+
+                        <ImageButton
+                            android:id="@+id/cow_5"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/c5"
+                            android:onClick="cow5BtnClick" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/row_2_rl_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cow_border"
+                        android:padding="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/row_2_rl_2">
+
+                        <ImageButton
+                            android:id="@+id/cow_6"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/c6"
+                            android:onClick="cow6BtnClick" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <!-- Row 3 -->
+                <RelativeLayout
+                    android:id="@+id/row_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_below="@+id/row_2"
+                    android:padding="6dp"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:id="@+id/row_3_rl_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cow_border"
+                        android:padding="4dp">
+
+                        <ImageButton
+                            android:id="@+id/cow_7"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/c7"
+                            android:onClick="cow7BtnClick" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/row_3_rl_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cow_border"
+                        android:padding="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/row_3_rl_1">
+
+                        <ImageButton
+                            android:id="@+id/cow_8"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/c8"
+                            android:onClick="cow8BtnClick" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/row_3_rl_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cow_border"
+                        android:padding="4dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/row_3_rl_2">
+
+                        <ImageButton
+                            android:id="@+id/cow_9"
+                            android:layout_width="60dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/c9"
+                            android:onClick="cow9BtnClick" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

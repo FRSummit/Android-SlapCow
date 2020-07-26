@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/trol_1"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/trol_2"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/trol_3"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/trol_4"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/trol_5"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/trol_6"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/trol_7"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/trol_8"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/trol_9"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/trol_10"
+        android:duration="80" />
+
+</animation-list>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Index">
+
+    <ImageView
+        android:id="@+id/index_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/index_icon"/>
+
+    <TextView
+        android:id="@+id/index_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/index_icon"
+        android:layout_marginTop="10dp"
+        android:text="Slap Cow Ass"
+        android:textSize="24dp"
+        android:textColor="#272727"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/index_text_bd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/index_text"
+        android:layout_marginTop="10dp"
+        android:text="গরুর পাছায় থাপ্পর দিয়ে গরু চেক করুন"
+        android:textSize="24dp"
+        android:textColor="#272727"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/index_text_bd"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/slap_cow_ass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Slap Cow Ass"
+            android:textStyle="bold"
+            android:onClick="slapCowAssBtnClick"
+            android:background="@drawable/index_btn_background"/>
+
+        <Button
+            android:id="@+id/about_this_app"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textStyle="bold"
+            android:layout_below="@+id/slap_cow_ass"
+            android:onClick="aboutBtnClick"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/index_btn_background"/>
+
+        <Button
+            android:id="@+id/rate_this_app"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Rate this app"
+            android:textStyle="bold"
+            android:layout_below="@+id/about_this_app"
+            android:onClick="rateBtnClick"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/index_btn_background"/>
+
+        <Button
+            android:id="@+id/exit_this_app"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:textStyle="bold"
+            android:layout_below="@+id/rate_this_app"
+            android:onClick="exitBtnClick"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/index_btn_background"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
