@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/index_icon"
         android:layout_marginTop="10dp"
-        android:text="Slap Cow Ass"
+        android:text="Slap Cow"
         android:textSize="24dp"
         android:textColor="#272727"
         android:textStyle="bold"
@@ -52,7 +52,7 @@
             android:id="@+id/slap_cow_ass"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Slap Cow Ass"
+            android:text="Slap Cow"
             android:textStyle="bold"
             android:onClick="slapCowAssBtnClick"
             android:background="@drawable/index_btn_background"/>

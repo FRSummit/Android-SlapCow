@@ -27,7 +27,7 @@ public class Index extends Activity {
     }
 
     public void rateBtnClick(View view) {
-        Uri uri = Uri.parse("https://play.google.com/store/apps/developer?id=$FRSummit$&hl=en");
+        Uri uri = Uri.parse("http://play.google.com/store/apps/details?id=" + this.getApplicationContext().getPackageName());
         startActivity(new Intent(Intent.ACTION_VIEW, uri));
     }
 

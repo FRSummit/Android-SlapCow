@@ -34,10 +34,9 @@
 
                 <ImageView
                     android:id="@+id/index_icon"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="20dp"
                     android:src="@drawable/index_icon" />
 
                 <TextView
@@ -46,9 +45,8 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/index_icon"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
                     android:gravity="center"
-                    android:text="Slap Cow Ass"
+                    android:text="Slap Cow"
                     android:textColor="#272727"
                     android:textSize="24dp"
                     android:textStyle="bold" />
@@ -59,11 +57,10 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/index_text"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
                     android:gravity="center"
-                    android:text="গরুর পাছায় থাপ্পর দিন আর দেখুন গরু সতেজ কি না"
+                    android:text="গরুর পাছায় থাপ্পর দিন আর দেখুন গরু সতেজ কি না!"
                     android:textColor="#272727"
-                    android:textSize="24dp"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
             </RelativeLayout>
